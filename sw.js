@@ -4,9 +4,9 @@ const ASSETS = [
     './index.html',
     './manifest.webmanifest',
     './sw.js',
-    './assets/hero-1.jpg',
-    './assets/hero-2.jpg',
-    './assets/hero-3.jpg',
+    './assets/hero-1.jpeg',
+    './assets/hero-2.jpeg',
+    './assets/hero-3.jpeg',
     './icons/icon-192.png',
     './icons/icon-512.png'
   ];
