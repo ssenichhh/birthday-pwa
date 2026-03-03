@@ -1,13 +1,15 @@
 const CACHE_NAME = 'birthday-pwa-v2';
 const ASSETS = [
-  './',
-  './index.html',
-  './manifest.webmanifest',
-  './sw.js',
-  './assets/hero.jpg',
-  './icons/icon-192.png',
-  './icons/icon-512.png'
-];
+    './',
+    './index.html',
+    './manifest.webmanifest',
+    './sw.js',
+    './assets/hero-1.jpg',
+    './assets/hero-2.jpg',
+    './assets/hero-3.jpg',
+    './icons/icon-192.png',
+    './icons/icon-512.png'
+  ];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(ASSETS)));
