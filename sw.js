@@ -7,6 +7,7 @@ const ASSETS = [
     './assets/hero-1.jpeg',
     './assets/hero-2.jpeg',
     './assets/hero-3.jpeg',
+    './assets/hero-4.jpeg',
     './icons/icon-192.png',
     './icons/icon-512.png'
   ];
